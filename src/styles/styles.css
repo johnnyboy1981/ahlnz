@@ -575,6 +575,11 @@ main {
 		flex-direction: column;
 	}
 
+	#banner {
+		overflow: hidden;
+		padding: 12em 0em 14em 0em;
+	}
+		
 	#banner .title h2 {
 		font-size: 410%;
 	}
@@ -584,5 +589,7 @@ main {
 		font-size: 200%
 		
 	}
+
+
 
 }
