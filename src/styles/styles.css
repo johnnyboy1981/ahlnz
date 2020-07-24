@@ -396,10 +396,12 @@ ul.contact li a.icon-rss:before {
 
 #banner .title h2 {
 	color: #FFF;
+	font-size: 510%;
 }
 
 #banner .title .byline {
-	color: rgba(255, 255, 255, .6);
+	color: rgba(255, 255, 255, .7);
+	font-size: 250%
 	
 }
 
@@ -571,6 +573,16 @@ main {
 
 	#three-column{
 		flex-direction: column;
+	}
+
+	#banner .title h2 {
+		font-size: 410%;
+	}
+	
+	#banner .title .byline {
+		color: rgba(255, 255, 255, .7);
+		font-size: 200%
+		
 	}
 
 }
