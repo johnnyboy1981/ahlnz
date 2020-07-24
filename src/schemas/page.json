@@ -1,0 +1,39 @@
+{
+  "Main" : {
+    "page_id" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Page ID"
+      }
+    },
+    "page_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+        "label" : "Page Title"
+      }
+    },
+    "page_text_1" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "Page Text 1"
+      }
+    },
+    "page_text_2" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "label" : "Page Text 2"
+      }
+    },
+    "page_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Page Image"
+      }
+    }
+  }
+}

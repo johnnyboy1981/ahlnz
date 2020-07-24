@@ -5,3 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+
+import "./src/styles/styles.css"
+import "./src/styles/fonts.css"
+
+
+
