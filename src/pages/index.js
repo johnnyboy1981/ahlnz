@@ -19,9 +19,9 @@ const IndexPage = ({data}) => (
 				<h2>{data.allPrismicPage.edges[0].node.data.page_title.text}</h2>
 				<span className="byline">{data.allPrismicPage.edges[0].node.data.page_text_1.text}</span> </div>
 			<ul className="actions">
-				<li><AnchorLink to="/#contact-details" title="Contact Us" className="button" stripHash={true}>
+				<li>{/*<AnchorLink to="/#contact-details" title="Contact Us" className="button" stripHash={true}>
               <span>Contact Us</span>
-            </AnchorLink>
+            </AnchorLink>*/}
         </li>
 			</ul>
 		</div>
